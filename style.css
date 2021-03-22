@@ -1,0 +1,101 @@
+body {
+  border: #5c969e solid 1px;
+  margin: 0 auto;
+  max-width: 600px;
+  max-height: 385px;
+  padding: 0;
+}
+
+h1,
+h2,
+h3 {
+  color: #a4a7a0;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align: right;
+}
+h3 {
+  font-size: 15px;
+}
+img {
+  width: 100px;
+  display: inline;
+  float: left top;
+}
+h4,
+h5,
+h6 {
+  color: #7c9473;
+  position: relative;
+  font-family: "Montserrat", sans-serif;
+  top: -10px;
+  text-align: center;
+  margin: 0;
+}
+h4,
+h5 {
+  font-size: 30px;
+  font-weight: bold;
+}
+.unit a {
+  color: #7c9473;
+  font-size: 12px;
+  text-decoration: none;
+  position: relative;
+}
+.celsius {
+  top: -12px;
+  left: -5px;
+}
+.fahrenheit {
+  top: -12px;
+  left: -10px;
+}
+
+.searchCity {
+  text-align: center;
+  font-size: 15px;
+  display: block;
+  border-radius: 30px;
+}
+
+.currentButton {
+  font-size: 13px;
+  border-radius: 4px;
+  border-width: 1px;
+  position: relative;
+  left: 430px;
+  top: -25px;
+}
+.container {
+  margin: 0;
+  padding: 0;
+
+  max-width: 600px;
+  min-height: 370px;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+}
+.row {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  text-align: center;
+  max-width: 600px;
+}
+.monday {
+  color: #e9b0df;
+}
+.tuesday {
+  color: #a3ddcb;
+}
+.wednesday {
+  color: #ffb26b;
+}
+.thursday {
+  color: #70af85;
+}
+.friday {
+  color: #9f5f80;
+}
